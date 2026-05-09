@@ -1,0 +1,52 @@
+I-Based Fault Detection in Transmission Lines
+
+Overview
+This project uses Artificial Intelligence and Machine Learning techniques to detect faults in transmission lines. The system continuously monitors electrical parameters like voltage and current to identify abnormal conditions quickly and accurately. It helps improve the reliability and safety of power transmission systems.
+
+Problem Statement
+Traditional fault detection methods in transmission lines are slow and require manual monitoring. Delays in fault identification can lead to power loss, equipment damage, and safety issues. An intelligent automated system is needed for faster and more accurate fault detection.
+
+Proposed Solution
+The proposed system uses AI/ML algorithms to analyze transmission line data in real time. The system detects faults automatically, classifies the fault type, and alerts the user immediately. This reduces response time and improves overall power system efficiency.
+
+Features:
+   Real-time fault detection
+   AI/ML-based analysis
+   Voltage and current monitoring
+   Automatic fault alerts
+   Fault location identification
+   Improved detection accuracy
+   Continuous monitoring system
+   User-friendly interface
+   Increased system reliability
+System Architecture:
+  Sensors collect voltage and current data
+  Data is sent to the processing unit
+  AI/ML model analyzes the data
+  Fault is detected and classified
+  Alert is generated to the user/dashboard
+Components:
+Voltage Sensor
+Current Sensor
+Microcontroller / Raspberry Pi
+AI/ML Model
+Transmission Line Dataset
+Display or Monitoring Dashboard
+Power Supply Unit
+
+Working Principle:
+The sensors continuously monitor transmission line parameters. The collected data is processed using an AI model trained to identify abnormal conditions. When a fault occurs, the system detects it instantly, classifies the type of fault, and sends an alert for quick action.
+
+Current Status:
+Basic system design completed
+AI model under development/testing
+Sensor integration is in progress
+Real-time monitoring module implemented
+Fault detection accuracy being improved
+Future Improvements:
+  IoT-based remote monitoring
+   Cloud data storage integration
+   Mobile app notifications
+   More accurate fault localization
+   Faster AI prediction models
+   Energy-efficient hardware implementation
